@@ -1,8 +1,9 @@
-package com.eltk.customkeyboard
+package com.eltk.customkeyboard.activity
 
 import android.os.Bundle
 import android.text.InputType
 import android.view.inputmethod.EditorInfo
+import com.eltk.customkeyboard.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseActivity() {

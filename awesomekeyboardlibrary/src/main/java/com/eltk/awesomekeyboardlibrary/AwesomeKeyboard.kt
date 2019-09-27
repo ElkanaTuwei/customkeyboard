@@ -19,10 +19,10 @@ class AwesomeKeyboard @JvmOverloads constructor(
     defStyleAttr: Int = 0
 ) : LinearLayout(context, attrs, defStyleAttr) {
 
-    private val keyValues = SparseArray<String>()
+    val keyValues = SparseArray<String>()
     private var inputConnection: InputConnection? = null
     lateinit var timer: Timer
-    private var run = false
+    var run = false
 
     init {
         init(context, attrs)
@@ -137,7 +137,7 @@ class AwesomeKeyboard @JvmOverloads constructor(
         inputConnection = ic
     }
 
-    private fun toggleNumberInput() {
+    public fun toggleNumberInput() {
         if (ll_number_input.isVisible) {
             ll_number_input.visibility = View.GONE
         } else {
@@ -174,7 +174,7 @@ class AwesomeKeyboard @JvmOverloads constructor(
         return false
     }
 
-    private fun deleteButtonTouchListener(motionEvent: MotionEvent): Boolean {
+    fun deleteButtonTouchListener(motionEvent: MotionEvent): Boolean {
         when(motionEvent.action){
             MotionEvent.ACTION_UP -> run = false
         }

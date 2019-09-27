@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:paddingStart="@dimen/view_margin_medium"
     android:paddingEnd="@dimen/view_margin_medium"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 
     <TextView
         android:id="@+id/tv_title"

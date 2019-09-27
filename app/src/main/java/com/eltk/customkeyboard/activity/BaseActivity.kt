@@ -1,4 +1,4 @@
-package com.eltk.customkeyboard
+package com.eltk.customkeyboard.activity
 
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
