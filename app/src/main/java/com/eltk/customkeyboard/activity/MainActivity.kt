@@ -14,6 +14,6 @@ class MainActivity : BaseActivity() {
         et_text_input.setRawInputType(InputType.TYPE_CLASS_TEXT)
         val etTextInputIc = et_text_input.onCreateInputConnection(EditorInfo())
         keyboard.setInputConnection(etTextInputIc)
-        et_text_input.setOnFocusChangeListener { view, b -> togggleView(keyboard) }
+        et_text_input.setOnClickListener {togggleView(keyboard)}
     }
 }
