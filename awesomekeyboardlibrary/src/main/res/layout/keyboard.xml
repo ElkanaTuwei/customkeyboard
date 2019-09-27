@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/ll_number_input"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button_1"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_1" />
+
+        <Button
+            android:id="@+id/button_2"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_2" />
+
+        <Button
+            android:id="@+id/button_3"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_3" />
+
+        <Button
+            android:id="@+id/button_4"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_4" />
+
+        <Button
+            android:id="@+id/button_5"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_5" />
+
+        <Button
+            android:id="@+id/button_6"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_6" />
+
+        <Button
+            android:id="@+id/button_7"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_7" />
+
+        <Button
+            android:id="@+id/button_8"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_8" />
+
+        <Button
+            android:id="@+id/button_9"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_9" />
+
+        <Button
+            android:id="@+id/button_0"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button_q"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_q" />
+
+        <Button
+            android:id="@+id/button_w"
+
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_w" />
+
+        <Button
+            android:id="@+id/button_e"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_e" />
+
+        <Button
+            android:id="@+id/button_r"
+
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_r" />
+
+        <Button
+            android:id="@+id/button_t"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_t" />
+
+        <Button
+            android:id="@+id/button_y"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_y" />
+
+        <Button
+            android:id="@+id/button_u"
+
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_u" />
+
+        <Button
+            android:id="@+id/button_i"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_i" />
+
+        <Button
+            android:id="@+id/button_o"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_o" />
+
+        <Button
+            android:id="@+id/button_p"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_p" />
+
+        <ImageButton
+            android:id="@+id/button_delete"
+            style="@style/CustomButton"
+            android:minWidth="@dimen/btn_delete_width"
+            android:src="@drawable/ic_backspace_black_18dp"
+            android:text="@string/tv_delete" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button_a"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_a" />
+
+        <Button
+            android:id="@+id/button_s"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_s" />
+
+        <Button
+            android:id="@+id/button_d"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_d" />
+
+        <Button
+            android:id="@+id/button_f"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_f" />
+
+        <Button
+            android:id="@+id/button_g"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_g" />
+
+        <Button
+            android:id="@+id/button_h"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_h" />
+
+        <Button
+            android:id="@+id/button_j"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_j" />
+
+        <Button
+            android:id="@+id/button_k"
+
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_k" />
+
+        <Button
+            android:id="@+id/button_l"
+            style="@style/CustomButton"
+            android:layout_weight="1"
+            android:text="@string/tv_l" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_z"
+            style="@style/CustomButton"
+            android:text="@string/tv_z" />
+
+        <Button
+            android:id="@+id/button_x"
+            style="@style/CustomButton"
+            android:text="@string/tv_x" />
+
+        <Button
+            android:id="@+id/button_c"
+            style="@style/CustomButton"
+            android:text="@string/tv_c" />
+
+        <Button
+            android:id="@+id/button_v"
+            style="@style/CustomButton"
+            android:text="@string/tv_v" />
+
+        <Button
+            android:id="@+id/button_b"
+            style="@style/CustomButton"
+            android:text="@string/tv_b" />
+
+        <Button
+            android:id="@+id/button_n"
+            style="@style/CustomButton"
+            android:text="@string/tv_n" />
+
+        <Button
+            android:id="@+id/button_m"
+            style="@style/CustomButton"
+            android:text="@string/tv_m" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/view_margin_medium">
+
+        <Button
+            android:id="@+id/button_toggle_number_input"
+            style="@style/CustomButton"
+            android:text="@string/tv_toggle_number_input" />
+
+        <Button
+            android:id="@+id/button_space"
+            android:layout_height="@dimen/view_height_medium"
+            android:layout_width="@dimen/spacebar_width"
+            android:text="@string/tv_space" />
+
+    </LinearLayout>
+
+</merge>

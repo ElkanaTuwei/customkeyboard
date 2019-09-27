@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Awesome Keyboard Library</string>
+    <string name="tv_loading">Loading…</string>
+    <string name="subtype_en_US">subtype_en_US</string>
+    <string name="chr_space">\u0020</string>
+    <string name="tv_1">1</string>
+    <string name="tv_2">2</string>
+    <string name="tv_3">3</string>
+    <string name="tv_4">4</string>
+    <string name="tv_5">5</string>
+    <string name="tv_6">6</string>
+    <string name="tv_7">7</string>
+    <string name="tv_8">8</string>
+    <string name="tv_9">9</string>
+    <string name="tv_0">0</string>
+    <string name="tv_q">Q</string>
+    <string name="tv_w">W</string>
+    <string name="tv_e">E</string>
+    <string name="tv_r">R</string>
+    <string name="tv_t">T</string>
+    <string name="tv_y">Y</string>
+    <string name="tv_u">U</string>
+    <string name="tv_i">I</string>
+    <string name="tv_o">O</string>
+    <string name="tv_p">P</string>
+    <string name="tv_delete">Del</string>
+    <string name="tv_a">A</string>
+    <string name="tv_s">S</string>
+    <string name="tv_d">D</string>
+    <string name="tv_f">F</string>
+    <string name="tv_g">G</string>
+    <string name="tv_h">H</string>
+    <string name="tv_j">J</string>
+    <string name="tv_k">K</string>
+    <string name="tv_l">L</string>
+    <string name="tv_z">Z</string>
+    <string name="tv_x">X</string>
+    <string name="tv_c">C</string>
+    <string name="tv_v">V</string>
+    <string name="tv_b">B</string>
+    <string name="tv_n">N</string>
+    <string name="tv_m">M</string>
+    <string name="tv_toggle_number_input">!#1</string>
+    <string name="tv_space">SPACE</string>
+
+</resources>

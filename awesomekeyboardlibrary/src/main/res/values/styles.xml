@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomButton" >
+        <item name="android:layout_width">@dimen/view_width_medium</item>
+        <item name="android:layout_height">@dimen/view_height_medium</item>
+        <item name="android:maxWidth">@dimen/view_width_medium</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+    </style>
+</resources>
