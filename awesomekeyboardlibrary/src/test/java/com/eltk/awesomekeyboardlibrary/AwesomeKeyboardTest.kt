@@ -3,7 +3,9 @@ package com.eltk.awesomekeyboardlibrary
 import android.app.Instrumentation
 import android.content.Context
 import android.os.SystemClock
+import android.util.SparseArray
 import android.view.MotionEvent
+import android.view.inputmethod.InputConnection
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.LinearLayout
@@ -28,9 +30,14 @@ public class AwesomeKeyboardTest {
     val inst: Instrumentation = getInstrumentation();
     var x10 = 160f
     var y10 = 400f
+    var keyValues = SparseArray<String>()
+    @Mock
+    private var inputConnection: InputConnection? = null
+
     @Before
     fun setUp() {
         context = RuntimeEnvironment.application.getApplicationContext()
+        keyValues.put(R.id.button_0, "0")
     }
 
     @Test
@@ -63,9 +70,15 @@ public class AwesomeKeyboardTest {
     }
 
     @Test
-    fun buttonValue_isAdded_toKeyValuesArray_forButtonValue(){
+    fun buttonValue_isAdded_toKeyValuesArray_forButtonValue() {
         val keyboardView = AwesomeKeyboard(context!!)
         keyboardView.keyValues.append(R.id.button_0, "0")
         assertTrue(keyboardView.keyValues.contains(R.id.button_0))
+    }
+
+    @Test
+    fun getButtonValue_returnCorrectValue() {
+        val buttonValue = keyValues.get(R.id.button_0)
+        assertEquals(buttonValue, "0")
     }
 }
